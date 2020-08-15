@@ -8,7 +8,7 @@ theme = "hugo-lamp"
   mainSections = ["posts"]
   subtitle = "ホームページ"
   author = "ichi_taro3"
-  logo = "/img/avatar.jpg"
+  logo = "/img/avatar.png"
   description = "Homepage posts"
   paginate = 10
 
@@ -39,10 +39,10 @@ theme = "hugo-lamp"
   category = "categories"
 
 [[menu.main]]
-  name = "Hugo"
+  name = "posts"
   weight = 1
-  identifier = "hugo"
-  url = "/hugo/"
+  identifier = "posts"
+  url = "/"
 [[menu.main]]
   name = "AMP Project"
   weight = 2
